@@ -1,0 +1,32 @@
+{
+ "snackPosition1": {
+   "positionId": "position1",
+   "snackId": "snack1",
+   "machineId": "machine1",
+   "uid": "LIQ8v7CONxTudpvm5icp5IHoih33"
+ },
+ "snackPosition2": {
+   "positionId": "position2",
+   "snackId": "snack2",
+   "machineId": "machine1",
+   "uid": "LIQ8v7CONxTudpvm5icp5IHoih33"
+ },
+ "snackPosition3": {
+   "positionId": "position5",
+   "snackId": "snack3",
+   "machineId": "machine1",
+   "uid": "LIQ8v7CONxTudpvm5icp5IHoih33"
+ },
+ "snackPosition4": {
+   "positionId": "position7",
+   "snackId": "snack4",
+   "machineId": "machine1",
+   "uid": "LIQ8v7CONxTudpvm5icp5IHoih33"
+ },
+ "snackPosition5": {
+   "positionId": "position10",
+   "snackId": "snack5",
+   "machineId": "12345",
+   "uid": "12345"
+ }
+}

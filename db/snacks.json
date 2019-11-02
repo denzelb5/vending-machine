@@ -1,0 +1,42 @@
+{
+  "snack1": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Twix-broken.jpg",
+    "name": "twix",
+    "price": 75,
+    "currentStocked": 4,
+    "lifetimeNum": 6,
+    "uid": "dNtia7LjITeF7taRpPGg5E4fTjE3"
+  },
+  "snack2": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/73/Candy-PayDay-Broken.jpg",
+    "name": "payday",
+    "price": 100,
+    "currentStocked": 3,
+    "lifetimeNum": 9,
+    "uid": "dNtia7LjITeF7taRpPGg5E4fTjE3"
+  },
+  "snack3": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4b/2019-01-29_18_07_51_A_packet_of_Peanut_M%26M%27s_in_the_Dulles_section_of_Sterling%2C_Loudoun_County%2C_Virginia.jpg",
+    "name": "fritos",
+    "price": 125,
+    "currentStocked": 2,
+    "lifetimeNum": 4,
+    "uid": "dNtia7LjITeF7taRpPGg5E4fTjE3"
+  },
+  "snack4": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/34/Fritos_on_a_white_background.jpg",
+    "name": "peanut m&m",
+    "price": "75",
+    "currentStocked": "1",
+    "lifetimeNum": "9",
+    "uid": "dNtia7LjITeF7taRpPGg5E4fTjE3"
+  },
+  "snack5": {
+    "imageUrl": "",
+    "name": "",
+    "price": "",
+    "currentStocked": "",
+    "lifetimeNum": "",
+    "uid": "12345"
+  }
+}
