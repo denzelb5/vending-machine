@@ -13,7 +13,9 @@ const getAllPositionsByMachineId = (machineId) => new Promise((resolve, reject) 
         demPositions[fbid].id = fbid; // firebase id
         positions.push(demPositions[fbid]);
       });
-      resolve(positions); // hard code to only retun first machine
+      // order positions (a1, a2, a3 ...)
+      const sortedPositions = positions.sort((a, b) => a.position.localeCompare(b.position, 'en', { numeric: true }));
+      resolve(sortedPositions); // hard code to only retun first machine
     })
     .catch((error) => reject(error));
 });
