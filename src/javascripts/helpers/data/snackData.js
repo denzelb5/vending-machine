@@ -1,7 +1,6 @@
 import axios from 'axios';
 import apiKeys from '../apiKeys.json';
 
-
 const baseUrl = apiKeys.firebaseKeys.databaseURL;
 
 const getSnacksByUid = (uid) => new Promise((resolve, reject) => {
@@ -9,11 +8,11 @@ const getSnacksByUid = (uid) => new Promise((resolve, reject) => {
     .then((response) => {
       const demSnacks = response.data;
       const snacks = [];
-      Object.keys(demSnacks).forEach((fbid) => {
-        demSnacks[fbid].id = fbid; // firebase id
-        snacks.push(demSnacks[fbid]);
+      Object.keys(demSnacks).forEach((fbId) => {
+        demSnacks[fbId].id = fbId;
+        snacks.push(demSnacks[fbId]);
       });
-      resolve(snacks); // hard code to only retun first machine
+      resolve(snacks);
     })
     .catch((error) => reject(error));
 });
