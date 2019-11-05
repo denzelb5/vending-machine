@@ -19,7 +19,7 @@ const buildTheMachine = () => {
         domString += snack.makeASnack(position);
       });
       domString += '</div>';
-      utilities.printToDom(domString, 'stock');
+      utilities.printToDom(domString, 'machine');
     })
     .catch((error) => console.error(error));
 };
