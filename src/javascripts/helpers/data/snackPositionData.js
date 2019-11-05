@@ -18,4 +18,6 @@ const getAllSnackPositionsByMachineId = (machineId) => new Promise((resolve, rej
 });
 
 const deleteSnackPosition = (snackPositionId) => axios.delete(`${baseUrl}/snackPositions/${snackPositionId}.json`);
-export default { getAllSnackPositionsByMachineId, deleteSnackPosition };
+const createSnackPosition = (newSnackPosition) => axios.post(`${baseUrl}/snackPositions.json`, newSnackPosition);
+
+export default { getAllSnackPositionsByMachineId, deleteSnackPosition, createSnackPosition };
